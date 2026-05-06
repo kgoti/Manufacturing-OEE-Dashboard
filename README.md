@@ -2,7 +2,6 @@
 
 **Tools:** Python · SQL · Power BI · DAX
 **Domain:** Manufacturing / Industrial Analytics
-**Level:** Intermediate
 
 ---
 
