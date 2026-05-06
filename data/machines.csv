@@ -1,0 +1,8 @@
+machine_id,machine_type,location,year_installed,manufacturer
+CNC-01,CNC Milling,Hall A,2018,Siemens
+CNC-02,CNC Milling,Hall A,2020,Siemens
+LATHE-01,Lathe,Hall B,2016,Mazak
+LATHE-02,Lathe,Hall B,2019,Mazak
+PRESS-01,Hydraulic Press,Hall C,2017,Schuler
+WELD-01,Welding,Hall C,2021,KUKA
+WELD-02,Welding,Hall D,2022,KUKA
