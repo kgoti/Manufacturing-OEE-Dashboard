@@ -17,30 +17,6 @@ The dashboard enables operations managers to:
 
 ---
 
-## 📁 Repository Structure
-
-```
-1_manufacturing_oee/
-│
-├── data/
-│   ├── production_log.csv      # 7,665 rows – daily shift production data
-│   ├── downtime_events.csv     # 1,432 rows – individual downtime events
-│   └── machines.csv            # 7 rows – machine master data
-│
-├── python/
-│   └── generate_data.py        # Synthetic dataset generator
-│
-├── sql/
-│   └── analysis_queries.sql    # 9 analytical SQL queries + star schema views
-│
-├── powerbi/
-│   └── DAX_and_Setup.md        # Full DAX measures + Power BI setup guide
-│
-└── README.md
-```
-
----
-
 ## 📊 Key Metrics
 
 | Metric        | Formula                                      | World-Class |
@@ -52,21 +28,6 @@ The dashboard enables operations managers to:
 
 ---
 
-## 🚀 How to Run
-
-### 1. Generate Data
-```bash
-cd python
-python generate_data.py
-```
-
-### 2. Run SQL Analysis
-Load CSVs into MySQL and run `sql/analysis_queries.sql`
-
-### 3. Build Power BI Dashboard
-Follow the step-by-step guide in `powerbi/DAX_and_Setup.md`
-
----
 
 ## 💡 Key Insights (Sample)
 
@@ -86,6 +47,3 @@ Follow the step-by-step guide in `powerbi/DAX_and_Setup.md`
 | Power BI| Interactive dashboard with DAX measures|
 | DAX     | KPI cards, time intelligence, MoM %   |
 
----
-
-*Built as part of a Data & BI Analyst portfolio targeting the German job market.*
